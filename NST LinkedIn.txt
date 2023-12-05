@@ -1,0 +1,5 @@
+Read and applied Neural Style Transfer paper from scratch in pytorch, a paper released in ___, that takes two images, 
+Content Image(P) and Style Image(A) and generates an image(G) by keeping the semantic information of the content image 
+and the style of the given style image. The paper uses a customized VGG-19 model(16 conv layers and 3 FC layers) and starts by 
+passing P(content) , A(style) and X(noisey image), using backprop on P and X to get the noisey image close to content and 
+similarly on A and X to get the noisey image close to style. As the loss is reduced time to time we get the better and better results
